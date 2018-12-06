@@ -6,8 +6,10 @@
   "scripts": {
     "start": "node index.js"
   },
-  "mime": "^2.4.0",
+  "dependencies": {
+    "mime": "^2.4.0",
     "mime-types": "^2.1.21",
     "node-static": "0.7.7",
     "socket.io": "1.2.0"
-  }}
+  }
+}
