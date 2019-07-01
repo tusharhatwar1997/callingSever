@@ -10,7 +10,7 @@ var fs = require("fs");
 var fileServer = new(nodeStatic.Server)();
 var app = https.createServer(function(req, res) {
   fileServer.serve(req, res);
-console.log("server is now running");
+console.log("server is now running sucessfully");
 }).listen(process.env.PORT);
 
 var io = socketIO.listen(app);
